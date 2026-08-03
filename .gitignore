@@ -1,0 +1,45 @@
+# Environment / secrets
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+.envrc
+
+# Test / coverage / type
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Local RAG index / runtime artifacts
+storage/*
+!storage/.gitkeep
+
+# IDE / OS
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Models / caches (large)
+.cache/
+*.bin
+*.pt
+*.onnx
+config.bat
+node_modules
